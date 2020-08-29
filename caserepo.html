@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Digital Garage Bootstrap Template - Index</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <div class="container d-flex align-items-center">
+        <div class="logo mr-auto">
+          <h1 class="text-light">
+            <a href="index.html"><span>Digital Garage</span></a>
+          </h1>
+          <small>Collaborate|Create|Change</small>
+          <br />
+          <small>Powered by TCS</small>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        </div>
+
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li><a href="#index.html">Home</a></li>
+
+            <li><a href="caserepo.html">Case Repository</a></li>
+            <li><a href="cause.html">Initiate Cause</a></li>
+            <li><a href="affliates.html">Our Affliates</a></li>
+            <li class="login">
+              <a data-toggle="modal" data-target="#exampleModal" href="#about"
+                >Login</a
+              >
+            </li>
+            <li class="get-started">
+              <a data-toggle="modal" data-target="#exampleModal2" href="#about"
+                >Sign Up</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!-- .nav-menu -->
+      </div>
+    </header>
+    <!-- End Header -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h5
+              style="margin-left: 36%"
+              class="modal-title text-center"
+              id="exampleModalLabel"
+            >
+              Login Form
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="recipient-name" class="col-form-label"
+                  >UserName:</label
+                >
+                <input type="text" class="form-control" id="recipient-name" />
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="col-form-label"
+                  >Password:</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="recipient-name"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Login</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal 2-->
+    <div
+      class="modal fade"
+      id="exampleModal2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h5
+              style="margin-left: 36%"
+              class="modal-title text-center"
+              id="exampleModalLabel"
+            >
+              Sign-Up Form
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Name:</label>
+                <input type="text" class="form-control" id="recipient-name" />
+              </div>
+              <div class="form-group">
+                <label for="recipient-name" class="col-form-label"
+                  >Email:</label
+                >
+                <input type="email" class="form-control" id="recipient-name" />
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="col-form-label"
+                  >Password:</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="recipient-name"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Sign-Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ======= Hero Section ======= -->
+    <br />
+    <br />
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Case Repository</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Case Repository</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <section id="case">
+      <div>
+        <div
+          id="heroCarousel"
+          class="carousel slide carousel-fade"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+          <div class="carousel-inner" role="listbox">
+            <!-- Slide 1 -->
+            <div
+              class="carousel-item active img-fluid"
+              style="background-image: url('assets/img/img3.jpg')"
+            >
+              <div class="carousel-container">
+                <div class="carousel-content container">
+                  <h2 class="animate__animated animate__fadeInDown">
+                    <br />
+                    Welcome to <span>Mamba</span>
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
+                    ut et est quaerat sequi nihil ut aliquam. Occaecati alias
+                    dolorem mollitia ut. Similique ea voluptatem. Esse
+                    doloremque accusamus repellendus deleniti vel. Minus et
+                    tempore modi architecto.
+                  </p>
+                  <a
+                    href="#about"
+                    class="btn-get-started animate__animated animate__fadeInUp scrollto"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div
+              class="carousel-item img-fluid"
+              style="background-image: url('assets/img/img1.jpg')"
+            >
+              <div class="carousel-container">
+                <div class="carousel-content container">
+                  <h2 class="animate__animated animate__fadeInDown">
+                    <br />
+                    Lorem Ipsum Dolor
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
+                    ut et est quaerat sequi nihil ut aliquam. Occaecati alias
+                    dolorem mollitia ut. Similique ea voluptatem. Esse
+                    doloremque accusamus repellendus deleniti vel. Minus et
+                    tempore modi architecto.
+                  </p>
+                  <a
+                    href="#about"
+                    class="btn-get-started animate__animated animate__fadeInUp scrollto"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div
+              class="carousel-item img-fluid"
+              style="background-image: url('assets/img/img2.jpg')"
+            >
+              <div class="carousel-container">
+                <div class="carousel-content container">
+                  <h2 class="animate__animated animate__fadeInDown">
+                    <br />
+                    Sequi ea ut et est quaerat
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
+                    ut et est quaerat sequi nihil ut aliquam. Occaecati alias
+                    dolorem mollitia ut. Similique ea voluptatem. Esse
+                    doloremque accusamus repellendus deleniti vel. Minus et
+                    tempore modi architecto.
+                  </p>
+
+                  <a
+                    href="#about"
+                    class="btn-get-started animate__animated animate__fadeInUp scrollto"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a
+            class="carousel-control-prev"
+            href="#heroCarousel"
+            role="button"
+            data-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon icofont-rounded-left"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#heroCarousel"
+            role="button"
+            data-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon icofont-rounded-right"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= Team Section ======= -->
+      <section id="team" class="team section-bg">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>Cases Registered</h2>
+          </div>
+
+          <div class="row" data-aos="fade-up">
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="card1">
+                <a href="case.html">
+                  <img
+                    class="card-img-top"
+                    src="./assets/img/dryland.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </h5>
+                    <p class="card-text">
+                      Amet commodi deleniti enim laboriosam odio placeat
+                      praesentium quis ratione rerum suscipit.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted"
+                        ><i class="icofont-eye-alt"></i>1000<i
+                          class="icofont-ui-user"
+                        ></i
+                        >user1<i class="icofont-ui-calendar"></i>Jan 2020</small
+                      >
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="card1">
+                <a href="#">
+                  <img
+                    class="card-img-top"
+                    src="./assets/img/pix2.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </h5>
+                    <p class="card-text">
+                      Amet commodi deleniti enim laboriosam odio placeat
+                      praesentium quis ratione rerum suscipit.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted"
+                        ><i class="icofont-eye-alt"></i>1000<i
+                          class="icofont-ui-user"
+                        ></i
+                        >user1<i class="icofont-ui-calendar"></i>Jan 2020</small
+                      >
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="card1">
+                <a href="#">
+                  <img
+                    class="card-img-top"
+                    src="./assets/img/pix3.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </h5>
+                    <p class="card-text">
+                      Amet commodi deleniti enim laboriosam odio placeat
+                      praesentium quis ratione rerum suscipit.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted"
+                        ><i class="icofont-eye-alt"></i>100<i
+                          class="icofont-ui-user"
+                        ></i
+                        >user1<i class="icofont-ui-calendar"></i>Jan 2020</small
+                      >
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="card1">
+                <a href="#">
+                  <img
+                    class="card-img-top"
+                    src="./assets/img/pix4.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </h5>
+                    <p class="card-text">
+                      Amet commodi deleniti enim laboriosam odio placeat
+                      praesentium quis ratione rerum suscipit.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted"
+                        ><i class="icofont-eye-alt"></i>100<i
+                          class="icofont-ui-user"
+                        ></i
+                        >user1<i class="icofont-ui-calendar"></i>Jan 2020
+                      </small>
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="row" data-aos="fade-up">
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="card1">
+                <a href="#">
+                  <img
+                    class="card-img-top"
+                    src="./assets/img/pix1.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </h5>
+                    <p class="card-text">
+                      Amet commodi deleniti enim laboriosam odio placeat
+                      praesentium quis ratione rerum suscipit.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted"
+                        ><i class="icofont-eye-alt"></i>100<i
+                          class="icofont-ui-user"
+                        ></i
+                        >user1<i class="icofont-ui-calendar"></i>Dec 2019</small
+                      >
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="card1">
+                <a href="#">
+                  <img
+                    class="card-img-top"
+                    src="./assets/img/pix2.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </h5>
+                    <p class="card-text">
+                      Amet commodi deleniti enim laboriosam odio placeat
+                      praesentium quis ratione rerum suscipit.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted"
+                        ><i class="icofont-eye-alt"></i>100<i
+                          class="icofont-ui-user"
+                        ></i
+                        >user1<i class="icofont-ui-calendar"></i>Dec 2019</small
+                      >
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="card1">
+                <a href="#">
+                  <img
+                    class="card-img-top"
+                    src="./assets/img/pix3.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </h5>
+                    <p class="card-text">
+                      Amet commodi deleniti enim laboriosam odio placeat
+                      praesentium quis ratione rerum suscipit.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted"
+                        ><i class="icofont-eye-alt"></i>100<i
+                          class="icofont-ui-user"
+                        ></i
+                        >user1<i class="icofont-ui-calendar"></i>Dec 2019</small
+                      >
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="card1">
+                <a href="#">
+                  <img
+                    class="card-img-top"
+                    src="./assets/img/pix4.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </h5>
+                    <p class="card-text">
+                      Amet commodi deleniti enim laboriosam odio placeat
+                      praesentium quis ratione rerum suscipit.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted"
+                        ><i class="icofont-eye-alt"></i>100<i
+                          class="icofont-ui-user"
+                        ></i
+                        >user1<i class="icofont-ui-calendar"></i>Dec 2019
+                      </small>
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Team Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-6 text-lg-left text-center">
+            <img src="/assets/img/UN logo.svg" width="30%" alt="" />
+            <br />
+            <br />
+            <div class="copyright">
+              &copy; Copyright <strong>Digital Garage</strong>. All Rights
+              Reserved
+            </div>
+           <div class="credits">
+              Designed and developed by
+             
+              <a href="#">Digital Garage </a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+              <img src="/assets/img/sdg logo.png" width="30%" alt="" />
+              <br />
+              <a href="#intro" class="scrollto">Home</a>
+              <a href="#about" class="scrollto">About</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms of Use</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer> <a href="#">Terms of Use</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
