@@ -1,6 +1,6 @@
 /**
- * Template Name: Digital Garage - v3.0.0
- * Template URL: https://   .com/Digital Garage-free-bootstrap-template/
+ * Template Name: TCS UN DIGITAL GARAGE - v3.0.0
+ * Template URL: https://   .com/TCS UN DIGITAL GARAGE-free-bootstrap-template/
  * Author:    .com
  * License: https://   .com/license/
  */
